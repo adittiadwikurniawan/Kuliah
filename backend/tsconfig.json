@@ -9,8 +9,7 @@
   "forceConsistentCasingInFileNames": true,
   "strict" :true,
   "skipDefaultLibCheck": false,
-  }
-}
+  },
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
