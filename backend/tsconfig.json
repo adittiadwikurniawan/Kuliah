@@ -1,10 +1,16 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
-    // File Layout
-    // "rootDir": "./src",
-    // "outDir": "./dist",
-
+  "target": "es2016",
+  "module" : "commonjs",
+  "rootDir": "./src",
+  "outDir": "./dist",
+  "esModuleInterop": true,
+  "forceConsistentCasingInFileNames": true,
+  "strict" :true,
+  "skipDefaultLibCheck": false,
+  }
+}
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
